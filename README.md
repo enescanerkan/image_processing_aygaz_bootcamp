@@ -54,8 +54,10 @@ The dataset contains images for the following animal species: (Veri kümesi aşa
 
 #### Augmented Images Examples:
 
-![cow](https://github.com/user-attachments/assets/73074e8c-3c44-403c-96b0-bfeb2a580988)
-![gorilla](https://github.com/user-attachments/assets/faac7f73-80da-47e9-98ce-42bda103bfdb)
+| ![Cow](https://github.com/user-attachments/assets/73074e8c-3c44-403c-96b0-bfeb2a580988) | ![Gorilla](https://github.com/user-attachments/assets/faac7f73-80da-47e9-98ce-42bda103bfdb) |
+|:---------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|
+| Cow (İnek)                                                                             | Gorilla (Goril)                                                                            |
+
 
 Techniques used: (Kullanılan Teknikler:)
 
