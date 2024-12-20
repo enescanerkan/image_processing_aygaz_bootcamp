@@ -2,6 +2,8 @@
 
 ![sınıflar](https://github.com/user-attachments/assets/24eacf01-2e50-4a92-a47d-7cd2f12af7cc)
 
+#### Kaggle Link → https://www.kaggle.com/code/enescanerkan1/cnn-training-aygazbootcamp
+
 This project focuses on classifying animal images using a dataset containing various animal species. (Bu proje, çeşitli hayvan türlerini içeren bir veri kümesi kullanarak hayvan görüntülerini sınıflandırmaya odaklanmaktadır.) The primary aim is to enhance proficiency in image processing and deep learning techniques. (Ana amaç, görüntü işleme ve derin öğrenme tekniklerindeki yetkinliği artırmaktır.)
 
 ## Dataset (Veri Kümesi)
