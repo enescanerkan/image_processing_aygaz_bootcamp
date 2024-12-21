@@ -84,16 +84,24 @@ Layers: (Katmanlar:)
 #### Model Summary: (Model Özeti:)
 
 ```python
+# Model tanımı
 model_cnn = models.Sequential([
     layers.Input(shape=(128, 128, 3)),
     layers.Conv2D(32, (3, 3)),
-    LeakyReLU(alpha=0.1),
+    LeakyReLU(alpha=0.1),  # Leaky ReLU aktivasyonu
     layers.MaxPooling2D(pool_size=(2, 2)),
-    layers.Flatten(),
+    layers.Flatten(),  # Düzleştirme katmanı
     layers.Dense(128),
-    LeakyReLU(alpha=0.1),
-    layers.Dense(len(classes), activation='softmax')
+    LeakyReLU(alpha=0.1),  # Leaky ReLU aktivasyonu
+    layers.Dense(len(classes), activation='softmax')  # Çıkış katmanı
 ])
+
+# Modelin derlenmesi (compile)
+model_cnn.compile(
+    optimizer=optimizers.RMSprop(learning_rate=0.001),  # RMSprop optimizasyon algoritması
+    loss='categorical_crossentropy',
+    metrics=['accuracy']
+)
 ```
 
 ### Compilation and Training (Derleme ve Eğitim)
